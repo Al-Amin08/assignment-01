@@ -65,12 +65,12 @@ a{
     /* width: 946px;
     padding: 0 auto; */
     background-color: white;
-    
+
 }
 
 .web-dev{
     max-width: 1140px;
-    margin: 90px auto;
+    margin: 150px auto;
     border-radius: 16px;
     padding: 80px 97px 80px 97px;
 }
@@ -79,4 +79,30 @@ a{
     border: 1px solid rgb(13, 19, 33);
     padding: 12px 20px 12px 20px;
     color: rgb(13, 19, 33);
+}
+
+
+/* inspiration */
+.inspiration-section{
+   max-width:1140px;
+   margin:150px auto;
+   
+}
+.video{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 48px 0px;
+    padding: 32px;
+    align-self: stretch;
+    /* position: static; */
+    
+}
+iframe{
+    border-radius: 16px;
+    /* align-self: stretch; */
+    /* position: static; */
+    width: 1076px;
+    height: 550px;
+    /* padding: 80px auto; */
+    
 }
