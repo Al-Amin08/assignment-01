@@ -138,3 +138,71 @@ iframe{
     padding: 40px;
     border-radius: 16px;
 }
+
+.current-target a{
+    color: rgb(13, 19, 33) ;
+    font-weight: 700;
+    
+}
+
+.support{
+   
+    background-image: url(assets/handshake.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding: 64px 48px 64px 48px;
+    color: white;
+    max-width: 1140px;
+    background-size: cover;
+    background-position: center;
+    margin: 49px auto;
+    height: 213px;
+    
+   
+}
+
+.support h1{
+    font-size: 32px;
+    font-weight: 700;    
+}
+.support p{
+    opacity: 0.7;
+}
+.feedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.feedback textarea{
+    padding: 19px 20px;
+    border-radius: 8px;
+    color: rgba(13, 19, 33, 0.4);
+    width: 548px;
+    font-size: 20px;
+    height: 57px;
+}
+.feedback input{
+    width: 120px;
+    height: 57px;
+    padding: 17px 20px;
+    border-radius: 8px;
+    color:rgb(13, 19, 33);
+    font-weight: 600;
+    font-size: 23px;
+                        
+
+}
+
+footer{
+    display:flex ;
+    background-color: rgba(13, 19, 33, 0.03);
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 50px;
+    margin-top: 80px;
+}
+footer a{
+    text-decoration: none;
+}
